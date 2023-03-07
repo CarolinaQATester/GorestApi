@@ -7,7 +7,7 @@ describe('Dado do usuario na api', ()=> {
                 cy.log(JSON.stringify(resTodosUsuario.body))
                expect(resTodosUsuario.status).to.eq(200)
                expect(resTodosUsuario.body[0].name).to.not.be.null
-               expect(resTodosUsuario.body[0].name).to.eq('Prof. Durgeshwari Abbott')
+               expect(resTodosUsuario.body[0].name).to.eq('Carolina')
             })
         
     })
